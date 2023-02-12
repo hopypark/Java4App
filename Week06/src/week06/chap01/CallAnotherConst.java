@@ -5,7 +5,7 @@ class Person {
 	int age;
 	
 	Person(){
-		this("ÀÌ¸§ ¾øÀ½", 1);
+		this("ì´ë¦„ ì—†ìŒ", 1);
 	}
 	
 	Person(String name, int age){
@@ -14,7 +14,7 @@ class Person {
 	}
 	
 	Person returnSelf() {
-		return this;		// this¸¦ ¹İÈ¯
+		return this;		// this ë°˜í™˜
 	}
 }
 
