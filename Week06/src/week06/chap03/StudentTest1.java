@@ -8,9 +8,9 @@ public class StudentTest1 {
 		studentLee.serialNum++;
 		
 		Student studentSon = new Student();
-		studentLee.setStudentName("손수경");
-		System.out.println(studentLee.serialNum); 
-		System.out.println(studentSon.serialNum); 		
+		studentSon.setStudentName("손수경");
+		System.out.println(studentSon.serialNum); 
+		System.out.println(studentLee.serialNum); 		
 	}
 }
 
