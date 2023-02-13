@@ -22,7 +22,7 @@ public class Student2 {
 	
 	public static int getSerialNum() {		
 		int i = 10;
-		studentName = "이지원";
+//		studentName = "이지원";
 		return serialNum;
 	}
 	
