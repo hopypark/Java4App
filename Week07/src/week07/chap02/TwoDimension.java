@@ -1,4 +1,4 @@
-package week07.chap01;
+package week07.chap02;
 
 public class TwoDimension {
 	public static void main(String[] args) {
