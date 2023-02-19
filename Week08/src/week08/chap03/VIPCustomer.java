@@ -1,4 +1,4 @@
-package week08.chap01;
+package week08.chap03;
 
 public class VIPCustomer extends Customer {
 	// VIP용
@@ -23,6 +23,12 @@ public class VIPCustomer extends Customer {
 	public int getAgentID() {
 		return agentID;
 	}
+	
+	@Override
+	public int calcPrice(int price) {
+		bonusPoint += price * bonusRatio;		// 보너스 포인트 적립
+		return price - (int) (price * saleRatio); // 할인된 가격을 반환
+	} 
 	
 	public String showVIPInfo() {
 		return super.showCustomerInfo() + " 담당 상담원 아이디는 " + agentID + "입니다.";

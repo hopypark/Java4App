@@ -13,6 +13,9 @@ public class CustomerTest1 {
 //		customerLee.setCustomerName("이순신");
 //		customerLee.bonusPoint = 10000;
 //		System.out.println(customerLee.showCustomerInfo());		
+		
+		
+		
 	}
 }
 
