@@ -12,6 +12,18 @@ class Student {
 	public String toString() {
 		return studentId + ", " + studentName;
 	}
+
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (obj instanceof Student) {
+			Student std =(Student) obj;
+			if(this.studentId == std.studentId)
+				return true;
+			else return false;
+		} 
+		return false;
+	}	
 }
 
 public class EqualsTest{
@@ -30,8 +42,15 @@ public class EqualsTest{
 			System.out.println("studentLee와 studentLee2는 동일합니다.");
 		else 
 			System.out.println("studentLee와 studentLee2는 동일하지 않습니다.");
+		// 
+		if (studentLee == studentSoon) // == 기호로 비교
+			System.out.println("studentLee와 studentSoon의 주소는 같습니다.");
+		else 
+			System.out.println("studentLee와 studentSoon의 주소는 다릅니다.");
 		
-		
-		
+		if (studentLee.equals(studentSoon)) // equals() 메서드로 비교
+			System.out.println("studentLee와 studentSoon는 동일합니다.");
+		else 
+			System.out.println("studentLee와 studentSoon는 동일하지 않습니다.");			
 	}
 }
