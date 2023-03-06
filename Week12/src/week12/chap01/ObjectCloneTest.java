@@ -24,7 +24,7 @@ class Circle implements Cloneable{
 	}
 	
 	public String toString() {
-		return "원점은 " + point + "이고, 반지금은 " + radius + "입니다.";
+		return "원점은 " + point + "이고, 반지름은 " + radius + "입니다.";
 	}
 
 	@Override
