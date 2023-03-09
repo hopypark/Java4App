@@ -42,5 +42,9 @@ public class ObjectCloneTest {
 		System.out.println(copyCircle);
 		System.out.println(System.identityHashCode(circle));
 		System.out.println(System.identityHashCode(copyCircle));
+		
+		String str1 = new String("abc");	// 생성자의 매개변수로 문자열 생성
+		String str2 = "test";				// 문자열 상수를 가리키는 방식
+		
 	}
 }
