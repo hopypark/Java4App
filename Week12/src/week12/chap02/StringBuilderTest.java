@@ -16,6 +16,7 @@ public class StringBuilderTest {
 		javaStr = builder.toString();
 		System.out.println(javaStr);
 		System.out.println("새로 만들어진 javaStr 문자열 주소: " + System.identityHashCode(javaStr));
+
 	}
 }
 
