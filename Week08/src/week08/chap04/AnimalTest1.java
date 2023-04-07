@@ -9,7 +9,7 @@ class Animal{
 
 class Human extends Animal{
 	public void move() {
-		System.out.println("사람이 두 발로 것습니다.");
+		System.out.println("사람이 두 발로 걷습니다.");
 	}
 }
 

@@ -27,6 +27,10 @@ public class CallAnotherConst {
 		Person p = noName.returnSelf();
 		System.out.println(p);
 		System.out.println(noName);
+		
+		Person p2 = new Person();
+		System.out.println(p2);
+		System.out.println(p2.returnSelf() instanceof Person);
 	}
 }
 
