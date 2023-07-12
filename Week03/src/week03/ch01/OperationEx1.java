@@ -1,7 +1,6 @@
 package week03.ch01;
 
 public class OperationEx1 {
-
 	public static void main(String[] args) {
 		int mathScore = 90;
 		int engScore = 70;
