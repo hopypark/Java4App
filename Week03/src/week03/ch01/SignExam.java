@@ -11,7 +11,6 @@ public class SignExam {
 		
 		num = -num;					// num 값을 음수로 바꿔서 다시 num에 대입
 		System.out.println(num);	// 값 -10이 출력됨
-
 	}
 
 }
