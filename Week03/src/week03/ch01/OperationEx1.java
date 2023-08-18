@@ -7,7 +7,7 @@ public class OperationEx1 {
 		int totalScore = mathScore + engScore;
 		System.out.println(totalScore);
 		
-		double avgScore = totalScore / 2;
+		double avgScore = totalScore / 2.;
 		System.out.println(avgScore);
 	}
 
