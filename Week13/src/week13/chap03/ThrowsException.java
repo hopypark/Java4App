@@ -14,7 +14,18 @@ public class ThrowsException {
 	public static void main(String[] args) {
 
 		ThrowsException test = new ThrowsException();
-		test.loadClass("a.txt", "java.lang.String");
+		
+		try {
+			test.loadClass("a.txt", "java.lang.String");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 	}
 }
