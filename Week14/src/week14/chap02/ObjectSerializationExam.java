@@ -17,7 +17,6 @@ public class ObjectSerializationExam {
 	}
 }
 
-
 class User implements Serializable{
 	// 클래스를 직렬화했을 때와 역직렬화했을 때의 클래스가 같은지 확인할 때 사용
 	private static final long serialVersionUID = -7671679044858812266L;
